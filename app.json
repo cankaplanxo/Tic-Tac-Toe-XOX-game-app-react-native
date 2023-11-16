@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "XOX-game",
-    "slug": "XOX-game",
+    "slug": "xox-game",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -23,8 +23,16 @@
         "backgroundColor": "#ffffff"
       }
     },
-    "web": {
-      "favicon": "./assets/favicon.png"
+    "extra": {
+      "eas": {
+        "projectId": "b762cc03-9186-46cf-b6ed-7ddd9ea58052"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/b762cc03-9186-46cf-b6ed-7ddd9ea58052"
     }
   }
 }
